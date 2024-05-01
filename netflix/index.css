@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* global css start here */
+h1{
+    font-size: 45px;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    text-align: center;
+
+}
+h2{
+    font-size: 35px;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    text-align: left;
+}
+h3{
+    font-size: 20px;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    text-align: center;
+ 
+}
+h4{
+    font-size: 18px;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    text-align: left;
+}
+p{
+    font-size: 16px;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin: 20px 0px;
+    line-height: 1.8;
+}
+.text-media p{
+    font-size: 18px;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    text-align: left;
+    margin: 20px 0px;
+    line-height: 2;
+    
+    
+}
+/* global css end here */
+/* hero css start here */
+#hero {
+    background-image: url(./images/hero01.jpg);
+    height: 550px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 0px;
+    
+}
+.container{
+  max-width: 1284px;
+  padding: 0px 100px;
+  
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.space{
+    width:60%;
+    height: 50px;
+}
+
+#header .column img{
+    height: 50px;
+    width: 100%;
+}
+#lang button{
+    height: 30px;
+    width: 120px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+#sign button{
+    height: 30px;
+    width: 80px;
+    background-color: #f4101f;
+    color: #fff;
+    border: 0px;
+    border-radius: 8%;
+}
+#sign:hover, button:hover{
+    background-color: #300104;
+    color: #fff;
+}
+/* slogn css start here */
+.slogn{
+    padding: 150px ;
+
+}
+input{
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid #eeee;
+    color: #fff;
+    height: 40px;
+    width: 350px;
+    text-align: left;
+    padding: 10px;
+    margin-right: 20px;
+    
+}
+::placeholder{
+    color: #fff;
+}
+.slogn .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+#get button{
+    /* width: 200px;
+    height: 50px; */
+    color: #fff;
+    background-color: #e50914;
+    border: 0px;
+    text-align: left;
+    padding: 15px ;
+    width: 200px;
+}
+/* slogn css end here */
+/*  hero css end here */ 
+
+/* text-media css start here */
+.text-media{
+    background-color: black;
+    border-top: 10px solid #232323;
+    padding: 50px 0px;
+}
+.text-media .row .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-media .row .container .column{
+    padding: 0px 20px;
+}
+#png img{
+    height: 400px;
+}
+#png .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 2px solid #232323;
+    border-radius: 25px;
+    background-color: black;
+}
+#png .row .column img{
+    height: 50px;
+}
+#png .row .column {
+padding: 5px;
+}
+#png .row .column p{
+   margin: 0px;
+   font-size: 18px;
+   color: blue;
+   font-family: "Rubik", sans-serif;
+   font-weight: 300;
+   text-align: left;
+}
+#png{
+    position: relative;
+}
+#png .row{
+    position: absolute;
+    left: 150px;
+    top: 290px;
+}
+/* text-media css end here */
+
+/* Accordion css start here */
+.accordion{
+    background-color: black;
+    border-top: 10px solid #232323;
+    padding: 50px 0px;
+}
+.accordion .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.accordion h3{
+   margin-top: 50px;
+}
+.accordion h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.accordion-item {
+    background-color: #232323;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    height: 80px;
+    margin: 5px 0px;
+  }
+  .active, .accordion-item:hover {
+    background-color: #0d0d0d;
+  }
+  .panel {
+   padding: 0px 18px;
+    background-color:#232323;
+    display: none;
+    overflow: hidden;
+  }
+  .panel p{
+    text-align: left;
+  }
+/* Accordion css end here */
+
+/* footer css start here */
+.footer{
+    background-color: black;
+    border-top: 10px solid #232323;
+    padding: 50px 0px 100px 0px;
+}
+.footer p{
+    text-align: left;
+    font-size: 20;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+}
+.footer a{
+text-decoration: none;
+justify-content: space-between;
+color: #fff;
+font-family: "Rubik", sans-serif;
+    font-weight: 300;
+
+}
+.footer .row .detail{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+/* footer css end here */
